@@ -1,11 +1,13 @@
 import About from "@/components/About";
 import Hero from "@/components/Hero";
+import Portfolio from "@/components/Portfolio";
 
 export default function Home() {
   return (
-    <div>
+    <main>
       <Hero />
       <About />
-    </div>
+      <Portfolio />
+    </main>
   );
 }
