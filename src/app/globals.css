@@ -2,3 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+.carousel.carousel-slider {
+  overflow: visible!important;
+}
+
+.control-dots {
+  bottom: -45px!important;
+  z-index: 1!important;
+}
+
+.dot {
+  width: 12px!important;
+  height: 12px!important;
+}
