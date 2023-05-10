@@ -11,7 +11,7 @@ export default function Education() {
           url="https://www.betrybe.com/"
           title="TRYBE - Escola de tecnologia"
         />
-        {certificates.map(linkSeeder)}
+        <ul>{certificates.map(linkSeeder)}</ul>
       </section>
     </div>
   );
@@ -37,5 +37,9 @@ const certificates = [
 ];
 
 const linkSeeder = ({ title, url }: linkIconProps) => {
-  return <LinkIcon url={url} title={title} />;
+  return (
+    <li key={title}>
+      <LinkIcon url={url} title={title} />
+    </li>
+  );
 };

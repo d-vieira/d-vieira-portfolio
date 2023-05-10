@@ -8,13 +8,13 @@ export default function Header() {
         </h2>
       </div>
       <nav className="text-white text-2xl ml-12 mr-36 mt-0.5">
-        <ul className="flex gap-16">{links.map(navItem)}</ul>
+        <ul className="flex gap-16">{sections.map(navItem)}</ul>
       </nav>
     </header>
   );
 }
 
-const links = [
+const sections = [
   { name: "Início" },
   { name: "Sobre mim" },
   { name: "Portfólio" },
@@ -28,7 +28,7 @@ interface navItemProps {
 
 const navItem = ({ name }: navItemProps) => {
   return (
-    <li>
+    <li key={name}>
       <a
         href={"#" + name}
         className="opacity-100 hover:opacity-50 border-transparent duration-300"
