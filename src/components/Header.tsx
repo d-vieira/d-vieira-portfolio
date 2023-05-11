@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Header() {
   return (
     <header className="flex justify-around pl-44 py-8">
@@ -16,7 +18,7 @@ export default function Header() {
 
 const sections = [
   { name: "Início" },
-  { name: "Sobre mim" },
+  { name: "Sobre" },
   { name: "Portfólio" },
   { name: "Habilidades" },
   { name: "Contate-me" },
@@ -29,12 +31,12 @@ interface navItemProps {
 const navItem = ({ name }: navItemProps) => {
   return (
     <li key={name}>
-      <a
-        href={"#" + name}
+      <Link
+        href={"/#" + name}
         className="opacity-100 hover:opacity-50 border-transparent duration-300"
       >
         {name}
-      </a>
+      </Link>
     </li>
   );
 };
