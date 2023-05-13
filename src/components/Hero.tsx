@@ -2,7 +2,7 @@ import Link from "next/link";
 import Header from "./Header";
 import WavySVG from "./WavySVG";
 import Download from "./icons/Download";
-import Github from "./icons/Github";
+import GithubIcon from "./stacks/GithubIcon";
 import LinkedInIcon from "./icons/LinkedInIcon";
 
 export default function Hero() {
@@ -23,7 +23,7 @@ export default function Hero() {
         <div className="flex-1">
           <a
             href="download-dev-file.txt"
-            className="gap-1 flex justify-center items-center bg-white duration-200 hover:fill-myLightGrey hover:bg-zinc-900 hover:text-myLightGrey hover:shadow-md h-full rounded-xl mb-10"
+            className="gap-1 flex justify-center items-center bg-myGreen duration-200 hover:fill-myLightGrey hover:bg-zinc-900 hover:text-myLightGrey hover:shadow-md h-full rounded-xl mb-10"
             target="_blank"
             download="deu-certo-de-novo"
             title="Baixar Currículo"
@@ -34,12 +34,13 @@ export default function Hero() {
         </div>
         <div className="flex-1">
           <Link
-            className="gap-1 flex justify-center items-center bg-myGreen duration-200 hover:bg-lime-950 hover:fill-myLightGrey hover:text-myLightGrey hover:shadow-md h-full rounded-xl mb-10"
+            className="gap-1 flex justify-center items-center bg-white duration-200 hover:bg-lime-950 hover:fill-myLightGrey hover:text-myLightGrey hover:shadow-md h-full rounded-xl mb-10"
             href={"https://github.com/d-vieira"}
             target="_blank"
+            title="Perfil no Github"
           >
             GITHUB
-            <Github />
+            <GithubIcon x={28} y={28} />
           </Link>
         </div>
         <div className="flex-1">
@@ -47,6 +48,7 @@ export default function Hero() {
             className="flex justify-center items-center bg-myGreen duration-200 hover:bg-lime-950 hover:fill-myLightGrey hover:text-myLightGrey hover:shadow-md h-full rounded-xl mb-10 text-2xl"
             href={"https://www.linkedin.com/in/daniel-vieira-martins/"}
             target="_blank"
+            title="Perfil no linkedin"
           >
             Linked
             <LinkedInIcon />
