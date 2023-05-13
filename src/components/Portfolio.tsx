@@ -1,6 +1,4 @@
-import Link from "next/link";
 import MyCarousel from "./MyCarousel";
-import Github from "./icons/Github";
 
 export default function Portfolio() {
   return (
