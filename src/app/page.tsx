@@ -1,5 +1,15 @@
-import Home from "@/templates/Home";
+import About from "@/components/About";
+import Hero from "@/components/Hero";
+import Portfolio from "@/components/Portfolio";
+import Skills from "@/components/Skills";
 
 export default function Index() {
-  return <Home />
+  return (
+    <main>
+      <Hero />
+      <About />
+      <Portfolio />
+      <Skills />
+    </main>
+  );
 }
