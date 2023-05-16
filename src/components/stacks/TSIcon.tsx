@@ -20,24 +20,24 @@ export default function TSIcon({ x, y, className }: stackBaseProp) {
             gradientUnits="userSpaceOnUse"
             id="color-1_wpZmKzk11AzJ_gr1"
           >
-            <stop offset="0" stop-color="#007ad9"></stop>
-            <stop offset="1" stop-color="#007ad9"></stop>
+            <stop offset="0" stopColor="#007ad9"></stop>
+            <stop offset="1" stopColor="#007ad9"></stop>
           </linearGradient>
         </defs>
         <g
           fill="#007ad9"
-          fill-rule="nonzero"
+          fillRule="nonzero"
           stroke="none"
-          stroke-width="1"
-          stroke-linecap="butt"
-          stroke-linejoin="miter"
-          stroke-miterlimit="10"
-          stroke-dasharray=""
-          stroke-dashoffset="0"
-          font-family="none"
-          font-weight="none"
-          font-size="none"
-          text-anchor="none"
+          strokeWidth="1"
+          strokeLinecap="butt"
+          strokeLinejoin="miter"
+          strokeMiterlimit="10"
+          strokeDasharray=""
+          strokeDashoffset="0"
+          fontFamily="none"
+          fontWeight="none"
+          fontSize="none"
+          textAnchor="none"
         >
           <path
             d="M46.08,230.4c-11.31079,0 -20.48,-9.16921 -20.48,-20.48v-163.84c0,-11.31079 9.16921,-20.48 20.48,-20.48h163.84c11.31079,0 20.48,9.16921 20.48,20.48v163.84c0,11.31079 -9.16921,20.48 -20.48,20.48z"
@@ -46,18 +46,18 @@ export default function TSIcon({ x, y, className }: stackBaseProp) {
         </g>
         <g
           fill="none"
-          fill-rule="nonzero"
+          fillRule="nonzero"
           stroke="none"
-          stroke-width="1"
-          stroke-linecap="butt"
-          stroke-linejoin="miter"
-          stroke-miterlimit="10"
-          stroke-dasharray=""
-          stroke-dashoffset="0"
-          font-family="none"
-          font-weight="none"
-          font-size="none"
-          text-anchor="none"
+          strokeWidth="1"
+          strokeLinecap="butt"
+          strokeLinejoin="miter"
+          strokeMiterlimit="10"
+          strokeDasharray=""
+          strokeDashoffset="0"
+          fontFamily="none"
+          fontWeight="none"
+          fontSize="none"
+          textAnchor="none"
         >
           <g transform="scale(5.33333,5.33333)">
             <rect

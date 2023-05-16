@@ -4,7 +4,7 @@ export default function NodeJsIcon({ x, y }: stackBaseProp) {
   return (
     <StackBase>
       <svg
-        enable-background="new 0 0 456 284"
+        enableBackground="new 0 0 456 284"
         id="Layer_1"
         version="1.1"
         viewBox="0 0 456 284"
@@ -79,7 +79,7 @@ export default function NodeJsIcon({ x, y }: stackBaseProp) {
             <clipPath id="SVGID_2_">
               <use overflow="visible" />
             </clipPath>
-            <g clip-path="url(#SVGID_2_)">
+            <g clipPath="url(#SVGID_2_)">
               <path
                 d="M167.944,70.717l-42.222,24.314C124.146,95.94,123,97.619,123,99.439v48.666     c0,1.203,0.514,2.339,1.313,3.238l47.44-81.152C170.479,69.877,169.101,70.049,167.944,70.717z"
                 fill="none"
@@ -118,7 +118,7 @@ export default function NodeJsIcon({ x, y }: stackBaseProp) {
             <clipPath id="SVGID_5_">
               <use overflow="visible" />
             </clipPath>
-            <g clip-path="url(#SVGID_5_)">
+            <g clipPath="url(#SVGID_5_)">
               <path
                 d="M218,148.105V99.437c0-1.818-1.098-3.497-2.673-4.406l-42.252-24.314c-0.485-0.28-1.011-0.463-1.551-0.571     l46.317,79.128C217.94,148.895,218,148.505,218,148.105z"
                 fill="none"

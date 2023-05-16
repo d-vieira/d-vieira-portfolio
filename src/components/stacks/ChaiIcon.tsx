@@ -17,8 +17,8 @@ export default function ChaiIcon({ x, y }: stackBaseProp) {
             y1="45.227%"
             y2="100%"
           >
-            <stop offset="0%" stop-color="#F7F6F3" />
-            <stop offset="100%" stop-color="#FEF6D5" />
+            <stop offset="0%" stopColor="#F7F6F3" />
+            <stop offset="100%" stopColor="#FEF6D5" />
           </linearGradient>
         </defs>
         <path
