@@ -31,12 +31,12 @@ interface navItemProps {
 const navItem = ({ name }: navItemProps) => {
   return (
     <li key={name}>
-      <Link
+      <a
         href={"/#" + name}
-        className="opacity-100 hover:opacity-50 border-transparent duration-300"
+        className="scroll-smooth opacity-100 hover:opacity-50 border-transparent duration-300"
       >
         {name}
-      </Link>
+      </a>
     </li>
   );
 };
