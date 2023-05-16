@@ -9,9 +9,7 @@ export default function Skills() {
       id="Habilidades"
       className="bg-myDarkGrey h-full flex flex-col items-center"
     >
-      <h1 className="text-myLightGrey text-5xl text-center mt-32">
-        Minhas Stacks
-      </h1>
+      <h1 className="text-myLightGrey text-5xl text-center mt-32">Stacks</h1>
       <OverallStacks />
       <FrontEndStacks />
       <BackEndStacks />
