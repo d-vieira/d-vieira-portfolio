@@ -1,7 +1,10 @@
-import OverallStacks from "./OverallStacks";
-import FrontEndStacks from "./FrontEndStacks";
-import BackEndStacks from "./BackEndStacks";
-import TestingLibs from "./TestingLibs";
+import Stacks from "./Stacks";
+import {
+  STACKS_BACK_END,
+  STACKS_FRONT_END,
+  STACKS_OVERALL,
+  STACKS_TESTING_LIBS,
+} from "@/utils/variables";
 
 export default function Skills() {
   return (
@@ -9,11 +12,13 @@ export default function Skills() {
       id="Habilidades"
       className="bg-myDarkGrey h-full flex flex-col items-center"
     >
-      <h1 className="text-myLightGrey text-5xl text-center mt-32">Stacks</h1>
-      <OverallStacks />
-      <FrontEndStacks />
-      <BackEndStacks />
-      <TestingLibs />
+      <h1 className="text-myLightGrey text-5xl text-center mt-32 mb-5">
+        Stacks
+      </h1>
+      <Stacks stacks={STACKS_OVERALL} />
+      <Stacks stacks={STACKS_FRONT_END} />
+      <Stacks stacks={STACKS_BACK_END} />
+      <Stacks stacks={STACKS_TESTING_LIBS} />
     </div>
   );
 }
