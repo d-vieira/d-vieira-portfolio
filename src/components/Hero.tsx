@@ -14,9 +14,13 @@ export default function Hero() {
         <h1 className="text-myGreen font-bold text-6xl my-6">
           Desenvolvedor Web Full Stack
         </h1>
-        <p className="text-xl font-bold">
-          Lorefodasis Lorenfodasis Lorenfodasis Lorenfodasis Lorenfodasis
-          Lorenfodasis Lorenfodasis Lorenfodasis Lorenfodasis Lorenfodasis
+        <p className="text-xl font-bold max-w-6xl">
+          Apaixonado por transformar ideias em realidade através de sólidas
+          habilidades em programação.
+          <br />
+          <br />
+          Juntos, podemos trabalhar para criar uma experiência digital memorável
+          e impactante que reflita a identidade e os objetivos da sua empresa.
         </p>
       </article>
       <div className="flex text-lg gap-4 mt-7 ml-36 h-12 font-bold text-black max-w-lg">
