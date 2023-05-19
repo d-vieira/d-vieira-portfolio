@@ -5,8 +5,8 @@ import { saveAs } from "file-saver";
 /* >>>>> FILE FROM A PATH VERSION */
 export default function DownloadResume() {
   const handleClick = () => {
-    const filename = "mahoe.txt";
-    const fileURL = "download-dev-file.txt";
+    const filename = "Curriculo_Daniel_Vieira.pdf";
+    const fileURL = "Curriculo_Daniel_Vieira_19-05-2023.pdf";
 
     fetch(fileURL)
       .then((response) => response.blob())
