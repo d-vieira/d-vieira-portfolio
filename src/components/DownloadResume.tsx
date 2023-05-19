@@ -16,7 +16,7 @@ export default function DownloadResume() {
 
   return (
     <button
-      className="gap-1 flex flex-1 justify-center items-center bg-myGreen duration-200 hover:fill-myLightGrey hover:bg-zinc-900 hover:text-myLightGrey hover:shadow-md h-full rounded-xl mb-10"
+      className="gap-1 flex flex-1 justify-center items-center bg-myGreen duration-200 hover:bg-lime-950 hover:fill-myLightGrey hover:text-myLightGrey hover:shadow-md h-full rounded-xl mb-10"
       title="Baixar Currículo"
       onClick={handleClick}
     >
