@@ -1,3 +1,9 @@
+import Discord from "@/components/socials/Discord";
+import Github from "@/components/socials/Github";
+import Linkedin from "@/components/socials/Linkedin";
+import Spotify from "@/components/socials/Spotify";
+import Steam from "@/components/socials/Steam";
+import WhatsApp from "@/components/socials/WhatsApp";
 import ChaiIcon from "@/components/stacks/ChaiIcon";
 import Css3Icon from "@/components/stacks/Css3Icon";
 import DockerIcon from "@/components/stacks/DockerIcon";
@@ -70,3 +76,12 @@ export const NAV_SECTIONS = [
   { name: "Habilidades" },
   { name: "Contate-me" },
 ];
+
+export const SOCIALS = [
+  { Social: Steam, title: "Perfil na Steam", url: "https://steamcommunity.com/profiles/76561198095134496/"},
+  { Social: Spotify, title: "Perfil no Spotify", url: "https://open.spotify.com/user/12181092618?si=1db7ccd7b59f4f85"},
+  { Social: Discord, title: "Perfil no Discord", url: "https://discord.com/users/Shouzen#9784"},
+  { Social: Github, title: "Perfil no Github", url: "https://github.com/d-vieira"},
+  { Social: WhatsApp, title: "Contato no WhatsApp", url: "https://wa.me/5591981307406"},
+  { Social: Linkedin, title: "Perfil no LinkedIn", url: "https://www.linkedin.com/in/daniel-vieira-martins/"},
+]
