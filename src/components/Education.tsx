@@ -19,20 +19,8 @@ export default function Education() {
 
 const certificates = [
   {
-    title: "Fundamentos do Desenvolvimento Web",
-    url: "https://www.credential.net/0e269823-1061-401c-b68b-11300173c3f8",
-  },
-  {
-    title: "Desenvolvimento em Front-End",
-    url: "https://www.credential.net/0ddcbb10-372d-447c-998b-bbd63a3f535a",
-  },
-  {
-    title: "Desenvolvimento em Back End",
-    url: "https://www.credential.net/e21f6d24-001b-4ccb-a77b-afe2ce5aed11",
-  },
-  {
-    title: "Ciência da Computação",
-    url: "https://www.credential.net/100489e6-1885-4c32-957d-c4c3312ee9b8",
+    title: "Desenvolvimento Web",
+    url: "https://www.credential.net/417ba17c-c44a-435c-ad5a-ddd064286fd5",
   },
 ];
 
