@@ -8,11 +8,11 @@ import {
 
 export default function Skills() {
   return (
-    <div
-      id="Habilidades"
-      className="bg-myDarkGrey h-full flex flex-col items-center"
-    >
-      <h1 className="text-myLightGrey text-5xl text-center mt-32 mb-5">
+    <div className="bg-myDarkGrey h-full flex flex-col items-center">
+      <h1
+        id="Habilidades"
+        className="text-myLightGrey text-5xl text-center mt-32 mb-5"
+      >
         Stacks
       </h1>
       <Stacks stacks={STACKS_OVERALL} />
