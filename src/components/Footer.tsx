@@ -13,14 +13,14 @@ export default function Footer() {
       <div className="flex">
         <DVLogo />
 
-        <nav className="mt-28 ml-[6%]">
+        <nav className="mt-52 ml-[6%]">
           <p title="Menu de navegação" className="text-myGreen font-bold mb-3">
             NAVEGAÇÃO
           </p>
           <ul className="text-white">{NAV_SECTIONS.map(NavSeeder)}</ul>
         </nav>
 
-        <div className="mt-28 ml-[6%]">
+        <div className="mt-52 ml-[6%]">
           <p
             title="Menu de informações"
             className="text-myGreen font-bold mb-3"
