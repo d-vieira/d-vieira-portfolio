@@ -2,7 +2,7 @@ export default function ArrowUpIcon() {
   return (
     <a
       href="#"
-      className="md:hidden fixed left-[300px] bottom-3 z-auto animate-bounce scroll-smooth"
+      className="md:hidden fixed right-0 bottom-0 animate-bounce scroll-smooth"
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
