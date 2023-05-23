@@ -1,5 +1,5 @@
 "use client";
-import Download from "./icons/Download";
+import DownloadIcon from "./icons/DownloadIcon";
 import { saveAs } from "file-saver";
 
 /* >>>>> FILE FROM A PATH VERSION */
@@ -21,7 +21,7 @@ export default function DownloadResume() {
       onClick={handleClick}
     >
       CURRÍCULO
-      <Download />
+      <DownloadIcon />
     </button>
   );
 }

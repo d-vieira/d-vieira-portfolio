@@ -1,4 +1,4 @@
-export default function Institution() {
+export default function InstitutionIcon() {
   return (
     <div>
       <svg
