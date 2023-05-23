@@ -3,7 +3,7 @@ import { SocialBaseProps } from "./socials/SocialBase";
 
 export default function Socials({ socials }: { socials: SocialsProps[] }) {
   return (
-    <div className="max-h-[170px] flex flex-wrap flex-col gap-5 mt-52 ml-[5%]">
+    <div className="max-h-[170px] flex flex-wrap flex-col gap-5 mt-52 ml-[5%] max-md:mt-16 max-md:w-[250px] max-md:ml-0">
       {socials.map(({ Social, title, url }) => {
         return (
           <Link
