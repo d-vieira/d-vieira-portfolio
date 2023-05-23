@@ -43,7 +43,9 @@ export default function MobileNavMenu() {
           ref={ref}
           className="bg-zinc-800 opacity-90 shadow-gray-500 shadow-[0_0_20px_5px_rgba(0,0,0,0.3)] text-myGreen text-center font-semibold text-3xl w-full h-[480px] z-10 left-0 top-[70px] absolute flex flex-col gap-10 py-9"
         >
-          {NAV_SECTIONS.map(NavSeeder)}
+          {NAV_SECTIONS.map(({ name }) => (
+            <NavSeeder key={name} name={name} callBack={handleClick} />
+          ))}
         </ul>
       )}
     </div>
