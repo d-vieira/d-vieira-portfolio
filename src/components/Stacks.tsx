@@ -3,7 +3,7 @@ import { stackBaseProp } from "./stacks/StackBase";
 
 export default function Stacks({ stacks }: { stacks: StacksProps[] }) {
   return (
-    <div className="flex">
+    <div className="flex max-md:flex-wrap max-md:w-[90%]">
       {stacks.map(({ Stack, title, url }) => {
         return (
           <Link
