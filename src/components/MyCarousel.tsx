@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function MyCarousel() {
   return (
-    <div className="border border-myLightGrey p-1 w-[680px] mt-5 mb-20">
+    <div className="border border-myLightGrey p-1 w-[680px] mt-5 mb-20 max-md:w-[90%]">
       <Carousel
         autoPlay
         interval={3000}
