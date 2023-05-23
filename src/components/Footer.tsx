@@ -10,7 +10,7 @@ import Copyright from "./Copyright";
 export default function Footer() {
   return (
     <div id="Contate-me" className="bg-myDarkGrey max-md:-mt-1">
-      <div className="flex ml-10 max-md:flex-col max-md:items-center max-2xl:lg:mr-72">
+      <div className="flex ml-10 max-md:ml-0 max-md:flex-col max-md:items-center max-2xl:lg:mr-72">
         <DVLogo />
 
         <nav className="mt-52 ml-[6%] max-md:mt-10 max-md:ml-0 max-md:text-center max-md:text-xl">
