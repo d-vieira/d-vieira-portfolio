@@ -1,4 +1,3 @@
-import Link from "next/link";
 import Header from "./Header";
 import WavySVG from "./WavySVG";
 import DownloadResume from "./DownloadResume";
