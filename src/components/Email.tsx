@@ -9,7 +9,7 @@ export default function Email() {
     clipBoard("dann-vieira@hotmail.com", () => {
       if (ref.current) {
         ref.current.show();
-        setTimeout(() => ref.current?.close(), 2000);
+        setTimeout(() => ref.current?.close(), 1000);
       }
     });
   };

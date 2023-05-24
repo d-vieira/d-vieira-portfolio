@@ -9,7 +9,7 @@ export default function Phone() {
     clipBoard("5591981307406", () => {
       if (ref.current) {
         ref.current.show();
-        setTimeout(() => ref.current?.close(), 2000);
+        setTimeout(() => ref.current?.close(), 1000);
       }
     });
   };
