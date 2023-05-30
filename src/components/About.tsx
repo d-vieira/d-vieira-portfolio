@@ -3,7 +3,7 @@ import Hobbies from "./Hobbies";
 
 export default function About() {
   return (
-    <div id="Sobre" className="bg-white pb-28 max-md:-mt-1">
+    <div id="Sobre" className="bg-white pb-28 -mt-1">
       <h1 className="text-myGreen font-bold text-5xl text-center mb-8">
         Sobre mim
       </h1>
