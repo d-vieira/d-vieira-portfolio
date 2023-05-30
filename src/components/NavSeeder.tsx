@@ -7,7 +7,7 @@ type navSeederProps = {
 
 export default function NavSeeder({ name, callBack }: navSeederProps) {
   return (
-    <li>
+    <li key={name}>
       <a
         onClick={callBack}
         title={`Ir para: ${name}`}
