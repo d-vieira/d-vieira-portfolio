@@ -74,7 +74,7 @@ export const NAV_SECTIONS = [
   { name: "Sobre" },
   { name: "Portfólio" },
   { name: "Habilidades" },
-  { name: "Contate-me" },
+  { name: "Contato" },
 ];
 
 export const SOCIALS = [

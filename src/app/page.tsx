@@ -11,8 +11,10 @@ export default function Index() {
       <Hero />
       <About />
       <Portfolio />
-      <Skills />
-      <Contact />
+      <div className="bg-gradient-to-b from-myDarkGrey via-zinc-700 to-myLightGrey">
+        <Skills />
+        <Contact />
+      </div>
       <Footer />
     </main>
   );

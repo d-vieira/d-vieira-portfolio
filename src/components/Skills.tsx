@@ -8,7 +8,7 @@ import {
 
 export default function Skills() {
   return (
-    <div className="bg-myDarkGrey h-full flex flex-col items-center max-md:-mt-1">
+    <div className="h-full flex flex-col items-center max-md:-mt-1">
       <h1
         id="Habilidades"
         className="text-myLightGrey text-5xl text-center mt-32 mb-5"
