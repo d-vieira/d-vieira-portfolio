@@ -34,7 +34,7 @@ export default function Phone() {
         +55 (91) 98130 - 7406
       </p>
       <dialog
-        className="rounded-xl bg-lime-950 p-2 text-myLightGrey opacity-90 duration-150 -mt-[68px] ml-[45%] max-md:ml-[15%] max-md:-mt-[85px]"
+        className="outline-none rounded-xl bg-lime-950 p-2 text-myLightGrey opacity-90 duration-150 -mt-[68px] ml-[45%] max-md:ml-[15%] max-md:-mt-[85px]"
         ref={ref}
       >
         Telefone copiado com sucesso!
