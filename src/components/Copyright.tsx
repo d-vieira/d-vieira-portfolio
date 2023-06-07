@@ -1,9 +1,9 @@
 export default function Copyright() {
   const year = new Date().getUTCFullYear();
   return (
-    <div className="flex flex-col items-center mt-10">
+    <div className="flex flex-col items-center w-full p-1 gap-2">
       <hr className="w-[70%] border-myLightGrey max-md:hidden" />
-      <p className="text-myLightGrey font-bold mt-5 mb-5 max-md:mb-0.5 max-md:w-[90%] max-md:text-center ">
+      <p className="text-myLightGrey font-bold max-md:mb-0.5">
         Copyright © {year} Daniel Vieira Martins
       </p>
     </div>

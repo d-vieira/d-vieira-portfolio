@@ -9,18 +9,18 @@ import Copyright from "./Copyright";
 
 export default function Footer() {
   return (
-    <div className="bg-myDarkGrey max-md:-mt-1">
-      <div className="flex ml-10 max-md:ml-0 max-md:flex-col max-md:items-center max-2xl:lg:mr-72">
+    <div className="bg-myDarkGrey flex flex-col items-center">
+      <div className="flex gap-14 p-12 max-md:flex-col">
         <DVLogo />
 
-        <nav className="mt-52 ml-[6%] max-md:mt-10 max-md:ml-0 max-md:text-center max-md:text-xl">
+        <nav className="max-md:text-center max-md:text-xl">
           <p title="Menu de navegação" className="text-myGreen font-bold mb-3">
             NAVEGAÇÃO
           </p>
           <ul className="text-white">{NAV_SECTIONS.map(NavSeeder)}</ul>
         </nav>
 
-        <div className="mt-52 ml-[6%] max-md:mt-10 max-md:ml-0 max-md:text-center max-md:text-xl">
+        <div className="max-md:text-center max-md:text-xl">
           <p
             title="Menu de informações"
             className="text-myGreen font-bold mb-3"
@@ -34,7 +34,6 @@ export default function Footer() {
 
         <Socials socials={SOCIALS} />
       </div>
-
       <Copyright />
     </div>
   );

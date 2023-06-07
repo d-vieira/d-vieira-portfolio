@@ -79,9 +79,9 @@ export const NAV_SECTIONS = [
 
 export const SOCIALS = [
   { Social: Steam, title: "Perfil na Steam", url: "https://steamcommunity.com/profiles/76561198095134496/"},
-  { Social: Spotify, title: "Perfil no Spotify", url: "https://open.spotify.com/user/12181092618?si=1db7ccd7b59f4f85"},
   { Social: Discord, title: "Perfil no Discord", url: "https://discord.gg/Shouzen#9784"},
-  { Social: Github, title: "Perfil no Github", url: "https://github.com/d-vieira"},
   { Social: WhatsApp, title: "Contato no WhatsApp", url: "https://wa.me/5591981307406"},
+  { Social: Spotify, title: "Perfil no Spotify", url: "https://open.spotify.com/user/12181092618?si=1db7ccd7b59f4f85"},
+  { Social: Github, title: "Perfil no Github", url: "https://github.com/d-vieira"},
   { Social: Linkedin, title: "Perfil no LinkedIn", url: "https://www.linkedin.com/in/daniel-vieira-martins/"},
 ]

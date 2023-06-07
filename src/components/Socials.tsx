@@ -1,12 +1,11 @@
-import Link from "next/link";
 import { SocialBaseProps } from "./socials/SocialBase";
 
 export default function Socials({ socials }: { socials: SocialsProps[] }) {
   return (
-    <div className="max-h-[170px] flex flex-wrap flex-col gap-5 mt-52 ml-[5%] max-md:mt-16 max-md:w-[250px] max-md:ml-0">
+    <div className="grid grid-cols-3 gap-5">
       {socials.map(({ Social, title, url }) => {
         return (
-          <Link
+          <a
             className="hover:scale-125 duration-200"
             key={title}
             title={title}
@@ -14,7 +13,7 @@ export default function Socials({ socials }: { socials: SocialsProps[] }) {
             target="_blank"
           >
             <Social x={72} y={72} />
-          </Link>
+          </a>
         );
       })}
     </div>

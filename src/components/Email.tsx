@@ -33,7 +33,7 @@ export default function Email() {
         dann-vieira@hotmail.com
       </p>
       <dialog
-        className="rounded-xl bg-lime-950 p-2 text-myLightGrey opacity-90 duration-150 ml-[50%]"
+        className="rounded-xl bg-lime-950 p-2 text-myLightGrey opacity-90 duration-150 -mt-10 ml-[45%] max-md:ml-[15%] max-md:-mt-14"
         ref={ref}
       >
         Email copiado com sucesso!
