@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 export type linkIconProps = {
   url: string;
   title: string;
@@ -8,7 +6,7 @@ export type linkIconProps = {
 export default function LinkIcon({ url, title }: linkIconProps) {
   return (
     <div className="flex opacity-70 hover:opacity-100 text-black">
-      <Link href={url} target="_blank" className="flex gap-1">
+      <a href={url} target="_blank" className="flex gap-1">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="20"
@@ -19,7 +17,7 @@ export default function LinkIcon({ url, title }: linkIconProps) {
           <path d="m8.464 16.95-1.415-1.414 8.487-8.486 1.414 1.415z"></path>
         </svg>
         {title}
-      </Link>
+      </a>
     </div>
   );
 }
