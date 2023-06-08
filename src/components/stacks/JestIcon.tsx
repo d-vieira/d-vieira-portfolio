@@ -1,8 +1,8 @@
 import StackBase, { stackBaseProp } from "./StackBase";
 
-export default function JestIcon({ x, y }: stackBaseProp) {
+export default function JestIcon({ x, y, className }: stackBaseProp) {
   return (
-    <StackBase>
+    <StackBase className={className}>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="-6 -8 76 76"

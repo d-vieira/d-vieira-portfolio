@@ -1,8 +1,8 @@
 import StackBase, { stackBaseProp } from "./StackBase";
 
-export default function NodeJsIcon({ x, y }: stackBaseProp) {
+export default function NodeJsIcon({ x, y, className }: stackBaseProp) {
   return (
-    <StackBase>
+    <StackBase className={className}>
       <svg
         enableBackground="new 0 0 456 284"
         id="Layer_1"

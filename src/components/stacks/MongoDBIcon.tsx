@@ -1,8 +1,8 @@
 import StackBase, { stackBaseProp } from "./StackBase";
 
-export default function MongoDBIcon({ x, y }: stackBaseProp) {
+export default function MongoDBIcon({ x, y, className }: stackBaseProp) {
   return (
-    <StackBase>
+    <StackBase className={className}>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width={x}

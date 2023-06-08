@@ -8,21 +8,17 @@ import {
 
 export default function Skills() {
   return (
-    <div className="h-full flex flex-col items-center -mt-1">
-      <h1
+    <section className="h-full flex flex-col items-center -mt-1">
+      <h3
         id="Habilidades"
-        className="text-myLightGrey text-5xl text-center mt-32 mb-5"
+        className="text-myLightGrey text-5xl text-center mt-32 mb-5 max-md:-mb-10"
       >
         Stacks
-      </h1>
-      <h2 className="text-myGreen text-xl mt-2 md:hidden">Linguagens / OPS</h2>
-      <Stacks stacks={STACKS_OVERALL} />
-      <h2 className="text-myGreen text-xl mt-12 mr-2 md:hidden">Front-End</h2>
-      <Stacks stacks={STACKS_FRONT_END} />
-      <h2 className="text-myGreen text-xl mt-12 mr-3 md:hidden">Back-End</h2>
-      <Stacks stacks={STACKS_BACK_END} />
-      <h2 className="text-myGreen text-xl mt-12 mr-2 md:hidden">Testes</h2>
-      <Stacks stacks={STACKS_TESTING_LIBS} />
-    </div>
+      </h3>
+      <Stacks stacks={STACKS_OVERALL} group="Linguagens / OPS" />
+      <Stacks stacks={STACKS_FRONT_END} group="Front-End" />
+      <Stacks stacks={STACKS_BACK_END} group="Back-End" />
+      <Stacks stacks={STACKS_TESTING_LIBS} group="Testes" />
+    </section>
   );
 }

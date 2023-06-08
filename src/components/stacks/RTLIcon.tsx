@@ -1,8 +1,8 @@
 import StackBase, { stackBaseProp } from "./StackBase";
 
-export default function RTLIcon({ x, y }: stackBaseProp) {
+export default function RTLIcon({ x, y, className }: stackBaseProp) {
   return (
-    <StackBase>
+    <StackBase className={className}>
       <svg
         role="img"
         viewBox="-2 -2 28 28"

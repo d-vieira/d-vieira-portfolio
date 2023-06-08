@@ -1,8 +1,8 @@
 import StackBase, { stackBaseProp } from "./StackBase";
 
-export default function SequelizeIcon({ x, y }: stackBaseProp) {
+export default function SequelizeIcon({ x, y, className }: stackBaseProp) {
   return (
-    <StackBase>
+    <StackBase className={className}>
       <svg
         width={x}
         height={y}

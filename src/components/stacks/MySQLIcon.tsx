@@ -1,8 +1,8 @@
 import StackBase, { stackBaseProp } from "./StackBase";
 
-export default function MySQLIcon({ x, y }: stackBaseProp) {
+export default function MySQLIcon({ x, y, className }: stackBaseProp) {
   return (
-    <StackBase>
+    <StackBase className={className}>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 128 128"

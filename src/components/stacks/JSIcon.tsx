@@ -1,8 +1,8 @@
 import StackBase, { stackBaseProp } from "./StackBase";
 
-export default function JSIcon({ x, y }: stackBaseProp) {
+export default function JSIcon({ x, y, className }: stackBaseProp) {
   return (
-    <StackBase>
+    <StackBase className={className}>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         x="0px"
