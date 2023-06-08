@@ -35,6 +35,7 @@ export default function MobileNavMenu() {
       <button
         onClick={handleClick}
         className="w-[36px] h-[36px] p-1 hidden max-md:block -mt-0.5"
+        aria-label="Nav menu"
       >
         {open ? <CloseButtonIcon /> : <HamburgerMenuIcon />}
       </button>

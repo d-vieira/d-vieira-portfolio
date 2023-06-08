@@ -9,6 +9,7 @@ export default function Socials({ socials }: { socials: SocialsProps[] }) {
             className="hover:scale-125 duration-200"
             key={title}
             title={title}
+            aria-label={title}
             href={url}
             target="_blank"
           >
