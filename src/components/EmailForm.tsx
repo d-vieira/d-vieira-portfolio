@@ -61,7 +61,7 @@ export default function EmailForm() {
     setValue("subject", "");
     setValue("message", "");
 
-    fetch("https://formsubmit.co/dann-vieira@hotmail.com", {
+    fetch("https://formsubmit.co/75ca6a890536bd285b8421ff952e24fe", {
       method: "POST",
       body: formData,
     })
