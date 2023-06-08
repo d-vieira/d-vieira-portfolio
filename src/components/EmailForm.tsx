@@ -3,7 +3,7 @@ import clsx from "clsx";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
 import { z } from "zod";
-import { useRef, useState } from "react";
+import { useState } from "react";
 import Message from "./Message";
 
 const emailFormSchema = z.object({
@@ -51,12 +51,24 @@ export default function EmailForm() {
   const [showMessage, setShowMessage] = useState(false);
 
   const sendEmail = (data: EmailFormData) => {
-    console.log(data);
+    const formData = new FormData();
+    formData.append("email", data.email);
+    formData.append("name", data.name);
+    formData.append("subject", data.subject);
+    formData.append("message", data.message);
     setValue("email", "");
     setValue("name", "");
     setValue("subject", "");
     setValue("message", "");
-    setShowMessage(true);
+
+    fetch("https://formsubmit.co/dann-vieira@hotmail.com", {
+      method: "POST",
+      body: formData,
+    })
+      .then((response) => {
+        if (response.status === 200) return setShowMessage(true);
+      })
+      .catch((error) => console.log(error));
   };
 
   return (
@@ -65,6 +77,7 @@ export default function EmailForm() {
       method="submit"
       onSubmit={handleSubmit(sendEmail)}
     >
+      <input type="text" name="_honey" className="hidden" />
       <div className="flex flex-col">
         <label htmlFor="email">Email:</label>
         <input
