@@ -2,7 +2,7 @@ import MusicIcon from "./icons/MusicIcon";
 
 export default function Hobbies() {
   return (
-    <div className="text-myDarkGrey border rounded-sm drop-shadow-md shadow-md pb-20 pt-2 w-1/3 grid justify-items-center text-center max-md:w-72 max-md:px-5">
+    <div className="flex-1 pt-2 pb-20 flex flex-col items-center text-center text-myDarkGrey border rounded-sm drop-shadow-md shadow-md max-md:px-5 max-md:w-72">
       <MusicIcon />
       <h4 className="font-bold text-3xl">HOBBIES</h4>
       <p>

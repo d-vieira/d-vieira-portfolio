@@ -3,7 +3,7 @@ import LinkIcon, { linkIconProps } from "./icons/LinkIcon";
 
 export default function Education() {
   return (
-    <div className="text-myDarkGrey border rounded-sm drop-shadow-md shadow-md pb-8 pt-2 w-1/3 flex flex-col items-center max-md:w-72">
+    <div className="flex-1 pt-2 pb-20 flex flex-col items-center text-myDarkGrey border rounded-sm drop-shadow-md shadow-md max-md:px-5 max-md:w-72">
       <InstitutionIcon />
       <h4 className="font-bold text-3xl mb-2.5">FORMAÇÃO</h4>
       <div className="flex flex-col text-left">
