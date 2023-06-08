@@ -7,7 +7,7 @@ export default function Header() {
   return (
     <header
       id="Início"
-      className="flex items-center gap-24 max-md:justify-around"
+      className="flex items-center gap-24 max-md:justify-around 2xl:gap-80"
     >
       <div className="flex">
         <h3 className="text-white text-3xl">
