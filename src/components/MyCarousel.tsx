@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function MyCarousel() {
   return (
-    <div className="border border-myLightGrey p-1 w-[680px] mt-5 mb-20 max-md:w-[90%]">
+    <div className="border border-myLightGrey p-1 w-[60%] h-[680px] mt-5 mb-20 max-md:w-[90%] 2xl:h-[510px]">
       <Carousel
         autoPlay
         interval={3000}
@@ -16,7 +16,7 @@ export default function MyCarousel() {
         showArrows={false}
       >
         <div>
-          <div className="relative h-[363px]">
+          <div className="h-[500px]">
             <Image
               className="rounded-xl object-fill"
               src="/trivia-game-project2.jpg"
@@ -27,7 +27,7 @@ export default function MyCarousel() {
         </div>
 
         <div>
-          <div className="relative h-[363px]">
+          <div className="h-[500px]">
             <Image
               className="rounded-xl object-fill"
               src="/recipes-app-project.jpg"
@@ -38,7 +38,7 @@ export default function MyCarousel() {
         </div>
 
         <div>
-          <div className="relative h-[363px]">
+          <div className="h-[500px]">
             <Image
               className="rounded-xl object-fill"
               src="/strangerthings-project.jpg"

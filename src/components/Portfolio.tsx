@@ -2,12 +2,11 @@ import MyCarousel from "./MyCarousel";
 
 export default function Portfolio() {
   return (
-    <div
-      id="Portfólio"
-      className="bg-myGreen bg-gradient-to-t from-myDarkGrey h-[700px] flex flex-col items-center"
-    >
-      <h1 className="text-myDarkGrey text-5xl text-center mt-28">Portfólio</h1>
+    <section className="h-[100vh] flex flex-col items-center bg-gradient-to-b from-myGreen to-myDarkGrey from-60%">
+      <h3 id="Portfólio" className="text-myDarkGrey text-5xl text-center mt-28">
+        Portfólio
+      </h3>
       <MyCarousel />
-    </div>
+    </section>
   );
 }
