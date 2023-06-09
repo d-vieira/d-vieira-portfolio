@@ -49,26 +49,27 @@ export default function EmailForm() {
   });
 
   const [showMessage, setShowMessage] = useState(false);
+  const [showError, setShowError] = useState(false);
 
-  const sendEmail = (data: EmailFormData) => {
-    const formData = new FormData();
-    formData.append("email", data.email);
-    formData.append("name", data.name);
-    formData.append("subject", data.subject);
-    formData.append("message", data.message);
+  const sendEmail = async (data: EmailFormData) => {
     setValue("email", "");
     setValue("name", "");
     setValue("subject", "");
     setValue("message", "");
 
-    fetch("https://formsubmit.co/75ca6a890536bd285b8421ff952e24fe", {
-      method: "POST",
-      body: formData,
-    })
-      .then((response) => {
-        if (response.status === 200) return setShowMessage(true);
-      })
-      .catch((error) => console.log(error));
+    const response = await fetch(
+      "https://formsubmit.co/ajax/75ca6a890536bd285b8421ff952e24fe",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(data),
+      }
+    );
+
+    if (response.status === 200) return setShowMessage(true);
+    if (response.status !== 200) return setShowError(true);
   };
 
   return (
@@ -180,6 +181,12 @@ export default function EmailForm() {
         message="Mensagem enviada com sucesso!"
         show={showMessage}
         onClose={() => setShowMessage(false)}
+      />
+
+      <Message
+        message="Falha ao enviar sua mensagem, por favor tente de novo mais tarde."
+        show={showError}
+        onClose={() => setShowError(false)}
       />
     </form>
   );
