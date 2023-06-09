@@ -7,6 +7,7 @@ export const metadata = {
   title: "Daniel Vieira",
   description:
     "Desenvolvedor Web Full Stack. Confira meu portfólio e veja alguns de meus projetos e soluções! [JS, TS, Node, React, CSS, HTML, SQL, NoSQL]",
+  alternates: { canonical: "https://danielvieira.vercel.app/" },
   icons: [{ rel: "icon", url: "/icons8-dev-96-final.png", sizes: "any" }],
   robots: "index, follow",
   themeColor: { media: "(prefers-color-scheme: dark)", color: "#3A3A3A" },
@@ -15,6 +16,14 @@ export const metadata = {
     title: "Daniel Vieira",
     description:
       "Desenvolvedor Web Full Stack. Confira meu portfólio e veja alguns de meus projetos e soluções! [JS, TS, Node, React, CSS, HTML, SQL, NoSQL]",
+  },
+  openGraph: {
+    type: "website",
+    url: "https://danielvieira.vercel.app/",
+    title: "Daniel Vieira",
+    description:
+      "Desenvolvedor Web Full Stack. Confira meu portfólio e veja alguns de meus projetos e soluções! [JS, TS, Node, React, CSS, HTML, SQL, NoSQL]",
+    siteName: "Daniel Vieira - Web Dev Full Stack",
   },
 };
 
