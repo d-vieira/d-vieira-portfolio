@@ -11,7 +11,6 @@ export const metadata = {
   robots: "index, follow",
   themeColor: { media: "(prefers-color-scheme: dark)", color: "#3A3A3A" },
   twitter: {
-    images: "/dv-transparent.png",
     site: "https://danielvieira.vercel.app/",
     title: "Daniel Vieira",
     description:
