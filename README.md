@@ -6,7 +6,7 @@
 Esse é repositório do meu portfólio.
 Sinta-se a vontade para revisar o código, todo feedback é sempre bem vindo!
 
-Você pode vê-lo publicado [aqui](https://danielvieira.vercel.app/) <<<
+Você pode vê-lo publicado [aqui](https://www.danielvieiradev.com/) <<<
 
 OU se preferir roda-lo localmente, basta seguir as instruções abaixo.
 ## Rodando localmente
@@ -64,7 +64,7 @@ Abra a página http://localhost:3000 no seu navegador para ver o resultado.
 This is my portfolio's repository.
 Feel free to review the code, feedbacks are always welcome!
 
-You can see the published version [here](https://danielvieira.vercel.app/) <<<
+You can see the published version [here](https://www.danielvieiradev.com/) <<<
 
 OR you can follow the instructions bellow to run it locally if you prefere
 ## Running locally
