@@ -19,6 +19,25 @@ export default function MyCarousel() {
           <div className="h-[500px]">
             <Image
               className="rounded-xl object-fill"
+              src="/strangerthings-project.jpg"
+              alt="Imagem do App Stranger things"
+              fill
+            />
+          </div>
+          <a
+            href="https://strangerthings-d-vieira.vercel.app/"
+            target="_blank"
+            title="Ir para o app Stranger Things"
+            className="legend"
+          >
+            Stranger Things - App
+          </a>
+        </div>
+
+        <div>
+          <div className="h-[500px]">
+            <Image
+              className="rounded-xl object-fill"
               src="/trivia-game-project2.jpg"
               alt="Imagem do jogo de trivia"
               fill
@@ -35,25 +54,6 @@ export default function MyCarousel() {
               fill
             />
           </div>
-        </div>
-
-        <div>
-          <div className="h-[500px]">
-            <Image
-              className="rounded-xl object-fill"
-              src="/strangerthings-project.jpg"
-              alt="Imagem do App Stranger things"
-              fill
-            />
-          </div>
-          <a
-            href="https://strangerthings-d-vieira.vercel.app/"
-            target="_blank"
-            title="Ir para o app Stranger Things"
-            className="legend"
-          >
-            Stranger Things - App
-          </a>
         </div>
       </Carousel>
     </div>
