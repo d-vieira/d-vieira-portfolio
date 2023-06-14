@@ -46,6 +46,14 @@ export default function MyCarousel() {
               fill
             />
           </div>
+          <a
+            href="https://strangerthings-d-vieira.vercel.app/"
+            target="_blank"
+            title="Ir para o app Stranger Things"
+            className="legend"
+          >
+            Stranger Things - App
+          </a>
         </div>
       </Carousel>
     </div>
