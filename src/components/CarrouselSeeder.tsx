@@ -20,7 +20,7 @@ export default function CarrouselSeeder({
 }: CarrouselSeeder) {
   return (
     <div className="flex p-10 gap-10" key={title}>
-      <picture>
+      <picture className="max-md:hidden">
         <img
           className="h-[65vh] rounded-xl shadow-black shadow-lg"
           src={imgSrc}
@@ -30,7 +30,9 @@ export default function CarrouselSeeder({
       <div className="flex-1 flex flex-col justify-evenly text-myDarkGrey bg-myLightGrey rounded-xl bg-opacity-70 shadow-black shadow-lg">
         <h4 className="text-2xl font-bold">{title}</h4>
 
-        <p className="text-xl p-10 text-justify">{description}</p>
+        <p className="text-xl p-10 text-justify max-md:text-base max-md:p-5">
+          {description}
+        </p>
 
         <div className="flex self-center gap-5">
           {code && (
