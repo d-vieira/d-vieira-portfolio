@@ -85,3 +85,14 @@ export const SOCIALS = [
   { Social: Github, title: "Perfil no Github", url: "https://github.com/d-vieira"},
   { Social: Linkedin, title: "Perfil no LinkedIn", url: "https://www.linkedin.com/in/daniel-vieira-martins/"},
 ]
+
+export const PROJECTS = [
+  {
+    imgSrc: "/strangerthingsapp.jpg",
+    imgAlt: "Imagem do App Stranger things",
+    title: "Stranger Things App",
+    description:
+      "Uma aplicação full stack na qual você pode pesquisar por personagens do seriado Stranger Things e interagir com a temática do site! Esse app foi produzido durante a minha trajetória no curso de Desenvolvimento Web da Trybe com o propósito de aplicar os conhecimentos relacionados aos fluxos de CI/CD e Deploy.",
+    url: "https://strangerthings-d-vieira.vercel.app/",
+  },
+];
