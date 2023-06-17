@@ -1,0 +1,70 @@
+export default function Code() {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="100"
+      height="100"
+      viewBox="0 0 48 48"
+    >
+      <path
+        fill="#5D9769"
+        d="M41.1,44H14.9c-2.1,0-3.9-1.7-3.9-3.9V15.9c0-2.1,1.7-3.9,3.9-3.9h26.2c2.1,0,3.9,1.7,3.9,3.9v24.2	C45,42.3,43.3,44,41.1,44z"
+      ></path>
+      <path
+        fill="none"
+        stroke="#3A3A3A"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeMiterlimit="10"
+        strokeWidth="3"
+        d="M41.5,35.3v1.2c0,2.2-1.8,4-4,4h-27c-2.2,0-4-1.8-4-4V25.6"
+      ></path>
+      <path
+        fill="none"
+        stroke="#3A3A3A"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeMiterlimit="10"
+        strokeWidth="3"
+        d="M6.5,20.5v-9c0-2.2,1.8-4,4-4h27c2.2,0,4,1.8,4,4v17.8"
+      ></path>
+      <line
+        x1="6.5"
+        x2="35.9"
+        y1="15.5"
+        y2="15.5"
+        stroke="#3A3A3A"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeMiterlimit="10"
+        strokeWidth="3"
+      ></line>
+      <line
+        x1="25.5"
+        x2="22.5"
+        y1="21.5"
+        y2="35.5"
+        fill="none"
+        stroke="#3A3A3A"
+        strokeLinecap="round"
+        strokeWidth="3"
+      ></line>
+      <polyline
+        fill="none"
+        stroke="#3A3A3A"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="3"
+        points="30.5,32.5 34.5,28.5 30.5,24.5"
+      ></polyline>
+      <polyline
+        fill="none"
+        stroke="#3A3A3A"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="3"
+        points="17.5,32.5 13.5,28.5 17.5,24.5"
+      ></polyline>
+    </svg>
+  );
+}
