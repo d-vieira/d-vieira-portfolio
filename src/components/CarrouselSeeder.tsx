@@ -27,10 +27,10 @@ export default function CarrouselSeeder({
           alt={imgAlt}
         />
       </picture>
-      <div className="flex-1 flex flex-col justify-evenly text-myDarkGrey bg-myLightGrey rounded-xl bg-opacity-70 shadow-black shadow-lg">
+      <div className="h-[65vh] flex-1 flex flex-col justify-evenly text-myDarkGrey bg-myLightGrey rounded-xl bg-opacity-70 shadow-black shadow-lg">
         <h4 className="text-2xl font-bold">{title}</h4>
 
-        <p className="text-xl p-10 text-justify max-md:text-base max-md:p-5">
+        <p className="overflow-auto text-xl p-10 text-justify max-md:text-base max-md:p-5">
           {description}
         </p>
 
