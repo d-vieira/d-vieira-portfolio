@@ -95,4 +95,13 @@ export const PROJECTS = [
       "Uma aplicação full stack na qual você pode pesquisar por personagens do seriado Stranger Things e interagir com a temática do site! Esse app foi produzido durante a minha trajetória no curso de Desenvolvimento Web da Trybe com o propósito de aplicar os conhecimentos relacionados aos fluxos de CI/CD e Deploy.",
     url: "https://strangerthings-d-vieira.vercel.app/",
   },
+  {
+    imgSrc: "/solarsystem.jpg",
+    imgAlt: "Imagem do App Sistema Solar",
+    title: "Sistema Solar",
+    description:
+      "Uma recriação em TypeScript + Next.js + TailwindCss do meu primeiro projeto em React.js feito no curso de Desenvolvimento Web da Trybe.",
+    code: "https://github.com/d-vieira/solar-system",
+    url: "https://solarsystem-d-vieira.vercel.app/",
+  },
 ];
