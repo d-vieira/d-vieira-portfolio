@@ -11,6 +11,7 @@ export default function MyCarousel() {
       showStatus={false}
       showThumbs={false}
       showArrows={false}
+      className="max-md:w-full"
     >
       {PROJECTS.map(CarrouselSeeder)}
     </Carousel>
