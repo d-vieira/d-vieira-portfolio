@@ -104,4 +104,10 @@ export const PROJECTS = [
     code: "https://github.com/d-vieira/solar-system",
     url: "https://solarsystem-d-vieira.vercel.app/",
   },
+  {
+    imgSrc: "/pagina-em-construcao.jpg",
+    imgAlt: "Mais projetos em breve!",
+    title: "Em construção!",
+    description: "Novos projetos chegarão em breve! Quem sabe o da sua empresa não seria um deles?",
+  },
 ];
