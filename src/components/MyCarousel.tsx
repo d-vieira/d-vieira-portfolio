@@ -8,9 +8,12 @@ export default function MyCarousel() {
   return (
     <Carousel
       emulateTouch
+      autoPlay
+      interval={4000}
+      stopOnHover
       showStatus={false}
       showThumbs={false}
-      showArrows={false}
+      ariaLabel="Carrossel de Projetos"
       className="max-md:w-full"
     >
       {PROJECTS.map(CarrouselSeeder)}

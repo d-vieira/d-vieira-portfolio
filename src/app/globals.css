@@ -12,8 +12,13 @@
 }
 
 .dot {
-  width: 12px!important;
-  height: 12px!important;
+  width: 20px!important;
+  height: 20px!important;
+}
+
+.control-arrow::before {
+  border-left-color: black!important;
+  border-right-color: black!important;
 }
 
 input:-webkit-autofill, input:-webkit-autofill:focus, input:-webkit-autofill:hover, select:-webkit-autofill, select:-webkit-autofill:focus, select:-webkit-autofill:hover {
