@@ -43,6 +43,7 @@ export default function CarrouselSeeder({
               className="hover:scale-105 hover:duration-500 hover:opacity-70"
             >
               <Code />
+              <p>Ver Código</p>
             </a>
           )}
           {url && (
@@ -53,6 +54,7 @@ export default function CarrouselSeeder({
               className="hover:scale-105 hover:duration-500 hover:opacity-70"
             >
               <ExternalLink />
+              <p>Visitar Página</p>
             </a>
           )}
         </div>
