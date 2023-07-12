@@ -88,6 +88,14 @@ export const SOCIALS = [
 
 export const PROJECTS = [
   {
+    imgSrc: "/br-consultoria-empresarial.jpg",
+    imgAlt: "Imagem do site BR Consultoria",
+    title: "BR Consultoria Empresarial",
+    description:
+      `Esse projeto trata-se de uma Landing Page, desenvolvida para estabelecer e divulgar a presença da empresa de contabilidade BR Consultoria no mundo Digital. Tanto a parte de Design/Layout quanto a Programação da página foram elaborados em equipe pelos devs: Breno Trindade, Alberto Florence e Daniel Vieira. Como de "prache", a responsividade da página era uma de nossas maiores preocupações e por esse motivo, praticamente toda a estilização dos componentes foi baseada em Mobile 1st. As core stacks utilizadas foram: TypeScript, Next.js, TailwindCSS, Figma e Discord.`,
+    url: "https://brconsultoriaempresarial.com/",
+  },
+  {
     imgSrc: "/strangerthingsapp.jpg",
     imgAlt: "Imagem do App Stranger things",
     title: "Stranger Things App",
