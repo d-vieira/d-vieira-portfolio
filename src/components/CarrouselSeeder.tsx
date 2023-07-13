@@ -30,9 +30,10 @@ export default function CarrouselSeeder({
       <div className="h-[65vh] max-w-lg flex-1 flex flex-col justify-evenly text-myDarkGrey bg-myLightGrey rounded-xl bg-opacity-70 shadow-black shadow-lg">
         <h4 className="text-2xl font-bold">{title}</h4>
 
-        <p className="overflow-auto text-xl p-10 text-justify max-md:text-base max-md:p-5">
-          {description}
-        </p>
+        <div
+          dangerouslySetInnerHTML={{ __html: description }}
+          className="overflow-auto text-xl p-10 text-justify max-md:text-base max-md:p-5"
+        />
 
         <div className="flex self-center gap-5">
           {code && (

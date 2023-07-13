@@ -92,7 +92,7 @@ export const PROJECTS = [
     imgAlt: "Imagem do site BR Consultoria",
     title: "BR Consultoria Empresarial",
     description:
-      `Esse projeto trata-se de uma Landing Page, desenvolvida para estabelecer e divulgar a presença da empresa de contabilidade BR Consultoria no mundo Digital. Tanto a parte de Design/Layout quanto a Programação da página foram elaborados em equipe pelos devs: Breno Trindade, Alberto Florence e Daniel Vieira. A responsividade da página é uma de nossas maiores preocupações e por esse motivo, praticamente toda a estilização dos componentes foi baseada em Mobile 1st. As core stacks utilizadas foram: TypeScript, Next.js, TailwindCSS, Figma e Discord.`,
+      `Esse projeto trata-se de uma Landing Page, desenvolvida para estabelecer e divulgar a presença da empresa de contabilidade BR Consultoria no mundo Digital. Tanto a parte de Design/Layout quanto a Programação da página foram elaborados em equipe pelos devs: <a href="https://www.linkedin.com/in/betrindade/" target="_blank">Breno Trindade</a>, <a href="https://www.linkedin.com/in/albertoflorence/" target="_blank">Alberto Florence</a> e Daniel Vieira. A responsividade da página é uma de nossas maiores preocupações e por esse motivo, praticamente toda a estilização dos componentes foi baseada em Mobile 1st. As core stacks utilizadas foram: TypeScript, Next.js, TailwindCSS, Figma e Discord.`,
     url: "https://brconsultoriaempresarial.com/",
   },
   {
