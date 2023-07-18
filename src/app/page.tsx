@@ -14,7 +14,7 @@ export default function Index() {
         <Header />
         <Hero />
       </div>
-      <div className="bg-myDarkGrey -mt-1">
+      <div className="bg-myDarkGrey -mt-1 max-md:hidden">
         <WavySVG />
       </div>
       <About />

@@ -4,7 +4,7 @@ import LinkedinButton from "./LinkedinButton";
 
 export default function Hero() {
   return (
-    <section className="mt-44 max-md:mt-2">
+    <section className="mt-44 max-md:mt-2 max-md:mb-20">
       <div className="text-white max-md:h-[480px] max-md:flex max-md:flex-col">
         <h3 className="text-5xl max-md:hidden">Prazer, Daniel Vieira</h3>
         <h1 className="text-myGreen font-bold text-6xl my-6 max-md:text-xl">
