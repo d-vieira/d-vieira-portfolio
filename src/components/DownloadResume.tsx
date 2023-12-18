@@ -6,7 +6,7 @@ import { saveAs } from "file-saver";
 export default function DownloadResume() {
   const handleClick = () => {
     const filename = "Curriculo_Daniel_Vieira.pdf";
-    const fileURL = "Curriculo_Daniel_Vieira_14-06-2023.pdf";
+    const fileURL = "CV-DANIEL-VIEIRA-12.2023.pdf";
 
     fetch(fileURL)
       .then((response) => response.blob())
